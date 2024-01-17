@@ -216,8 +216,8 @@ nav > a:hover{
     column-gap: 128px;
 }
 
-.contact-detail > div, .contact-detail > form {
-    width: 50%;
+.contact-detail > div{
+    width: 100%;
 }
 
 #contact h1{
@@ -263,6 +263,7 @@ form button:hover{
     grid-template-areas:    "name subject"
                             "email phone"
                             "message message";
+                            
 }
 
 #input-name{
@@ -299,6 +300,7 @@ form button:hover{
     outline: none;
     border-bottom: 1px solid black;
     font-size: 20px;
+    
 }
 
 .input-group input:focus{
